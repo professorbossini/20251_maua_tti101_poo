@@ -1,0 +1,17 @@
+__pycache__
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.vscode/
+target/
+build/
+.env
