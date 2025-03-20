@@ -7,21 +7,37 @@ public class IfESuasVariacoes {
         var leitor = new Scanner(System.in);
         System.out.println("Digite a nota");
         var nota = leitor.nextDouble();
-   
-        //if/else encadeado
-        if(nota >= 9)
+        //if/else aninhado(nested (nest é ninho))
+        if(nota >= 9){
             System.out.println("A");
-        else if(nota >= 8)
-            System.out.println("B");
-        else if(nota >= 7)
-            System.out.println("C");
-        else
-            System.out.println("Estudar mais um pouco...");
-
+        }
+        else{
+            if(nota >= 8){
+                System.out.println("B");
+            }
+            else{
+                if (nota >= 7) {
+                    System.out.println("C");
+                } 
+                else{
+                    System.out.println("Estudar mais um pouco");
+                }
+            }
+        }
+        
         System.out.println("Programa terminando...");
         leitor.close();
     }    
 }
+//if/else encadeado
+// if(nota >= 9)
+//     System.out.println("A");
+// else if(nota >= 8)
+//     System.out.println("B");
+// else if(nota >= 7)
+//     System.out.println("C");
+// else
+//     System.out.println("Estudar mais um pouco...");
 
 // if(nota >= 6)
 //     System.out.println("Aprovado");
