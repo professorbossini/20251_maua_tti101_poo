@@ -1,3 +1,4 @@
+package t3_sub1.entrada_saida;
 //indentando (indent)
 import java.util.Scanner;
 public class DistanciaEntreDoisPontos{
